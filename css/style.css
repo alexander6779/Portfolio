@@ -1,0 +1,102 @@
+a{
+	text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+}	
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover,a:focus{
+	background-size: 100% 2px;
+}
+.space{
+    padding-bottom: 100px;
+}
+
+/*-------------*/
+/*--------- blocks of texts*/
+
+.blockSpace{
+    padding: 3%;
+}
+
+.block{
+    padding: 20px;
+    overflow: hidden;
+	text-align: justify;
+    border-radius: 35px;
+    background-color: #ffffff;
+	box-shadow: 0 15px 30px 1px rgb(194, 194, 194);
+}
+
+/*-------------*/
+
+/*----------- bloque de la Experiencia */
+.exp-text {
+	text-align: justify;
+	height: 70%;
+	float: left;
+	width: 40%;
+
+}
+
+.exp-img {
+	overflow: hidden;
+	height: 60%;
+	width: 50%;
+    float: right;
+}
+
+.exp-img:hover {
+	transform: scale(1.3); /* (100% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+img {width: 90%;height: 60%;}
+/*--------------*/
+
+/*iconos Redes sociales*/
+
+.icons{
+	font-size: 30px;
+	padding-bottom: 3px;
+}
+
+/*--------------*/
+
+
+/*---- Contacto----*/
+
+.txtContact{
+	padding-left: 60px; 
+	padding-right: 60px;
+}
+
+.fStyle{
+	padding: 20px; 
+	border-radius: 10px;
+}
+
+/*----------*/
+.cookiesPol{
+	padding: 30px;
+	text-align: justify;
+}
+
+
+/* ---- */
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+
+.show{
+    opacity: 1 ;
+    filter: blur(0);
+    transform: translateX(0);
+}
